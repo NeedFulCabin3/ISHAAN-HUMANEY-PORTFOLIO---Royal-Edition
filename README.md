@@ -44,7 +44,7 @@ The structural codebase was custom-engineered from the ground up utilizing purel
 The unique layout grids, specific combination of print-style typography, structural layout patterns, custom CSS animation parameters, and branding assets are the **exclusive property of Ishaan Humaney**. 
 
 A formal copyright notice is embedded inside the live architectural layout:
-> **© 2026 by ISHAAN HUMANEY. POWERED AND SECURED BY ISHAAN HUMANEY - HUMANE FOUNDATION.**
+> **© 2026 by ISHAAN HUMANEY. POWERED AND SECURED BY ISHAAN HUMANEY.**
 
 ### Licensing
 This repository is governed by a **Proprietary / All Rights Reserved License**. Code visibility on GitHub does not grant a public domain license to duplicate, redistribute, or use these layout files in third-party environments. For details, see the accompanying `LICENSE` file.
