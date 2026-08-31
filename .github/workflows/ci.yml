@@ -22,14 +22,11 @@ jobs:
 
       - name: Auto-Fix In-Memory Code Artifacts
         run: |
-          # Use Python for robust multi-line regex stripping of stray closing tags
           python3 -c '
           import re
           with open("index.html", "r") as f:
               content = f.read()
-          # Remove duplicate consecutive closing paragraph tags regardless of whitespace/newlines
           content = re.sub(r"(</p>\s*)</p>", r"\1", content)
-          # Fix double closing angle brackets on attributes
           content = content.replace("\">>", "\">")
           with open("index.html", "w") as f:
               f.write(content)
@@ -57,11 +54,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Run Secret Scanning Guard
-        uses: trufflesecurity/trufflehog-actions-scan@v3.8.3
+      - name: Secret Scanning Guard
+        uses: trufflesecurity/trufflehog@main
+        continue-on-error: true
         with:
           path: ./
           base: ${{ github.event.repository.default_branch }}
           head: HEAD
-        continue-on-error: true
