@@ -37,8 +37,11 @@ The structural codebase was custom-engineered from the ground up utilizing purel
 ## ── Repository Manifesto & Legal Status
 
 ### Ownership & Intellectual Property
-The unique layout grids, specific combination of print-style typography, structural layout patterns, custom CSS animation parameters, and branding assets are the **exclusive property of Ishaan Humaney**. 
+The unique layout grids, specific combination of print-style typography, structural layout patterns, custom CSS animation parameters, and branding assets are the **exclusive property of Ishaan Humaney**.
 
+
+
+### Embedded Rights Statement
 A formal copyright notice is embedded inside the live architectural layout:
 > **© 2026 by ISHAAN HUMANEY. POWERED AND SECURED BY ISHAAN HUMANEY.**
 
