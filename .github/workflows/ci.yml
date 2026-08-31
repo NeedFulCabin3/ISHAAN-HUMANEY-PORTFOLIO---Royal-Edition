@@ -1,0 +1,55 @@
+name: Continuous Integration & Code Health
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  code-health:
+    name: Code Health & Validation Checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate HTML Markup
+        run: |
+          npx htmlhint "**/*.html"
+
+      - name: Lint CSS Files
+        run: |
+          npx stylelint "**/*.css" --allow-empty-input
+
+      - name: Check Formatting (Prettier)
+        run: |
+          npx prettier --check "**/*.{html,css,js,json,md}"
+
+      - name: Check Broken Links & Resource References
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress "**/*.html"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  security-audit:
+    name: Dependency & Security Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Secret Scanning Guard
+        uses: trufflesecurity/trufflehog-actions-scan@v3.8.3
+        with:
+          path: ./
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
