@@ -2,7 +2,7 @@
 
 > [!WARNING]
 > ### 🛑 PROPRIETARY NOTICE: INTELLECTUAL PROPERTY & STATUTORY LEGAL WARNING
-> The visual identity, structural architecture, custom grid frameworks, specific > layout hierarchies, typographic systems, and 3D perspective swing animation > > parameters within this repository constitute the exclusive intellectual > property of Ishaan **Humaney**.
+> The visual identity, structural architecture, custom grid frameworks, specific layout hierarchies, typographic systems, and 3D perspective swing animation parameters within this repository constitute the exclusive intellectual property of Ishaan **Humaney**.
 > 
 > Unauthorized duplication, reverse engineering, web scraping, redistribution, or derivative repurposing of this design language or codebase for any public, personal, or commercial digital layout is **strictly prohibited and unlawful**. Any unauthorized clones, derivative works, or mirrored instances identified in production environments will be subject to immediate legal action, statutory takedown notices, and liability claims..
 
