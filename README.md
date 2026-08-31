@@ -40,10 +40,34 @@ The structural codebase was custom-engineered from the ground up utilizing purel
 The unique layout grids, specific combination of print-style typography, structural layout patterns, custom CSS animation parameters, and branding assets are the **exclusive property of Ishaan Humaney**.
 
 
+### Applicable Statutory Protection Frameworks:
+
+**1. The Copyright Act, 1957**
+
+  • **Section 2(o):** Protects the underlying source code, scripts, software logic, and computational structures as       original literary works.
+
+  • **Section 2(c):** Protects the visual UI layout, custom color palettes, graphic elements, and spatial orchestration as original artistic works.
+
+  • **Section 14 & Section 51:** Grants exclusive statutory rights to the author to reproduce, perform, publish, adopt, or translate the work, making any unauthorized cloning, hosting, or distribution an act of civil copyright infringement.
+
+  • **Section 57:** Asserts non-transferable **Author's Special Rights (Moral Rights)**, protecting against unauthorized distortion, mutilation, or alteration that harms the creator's honor or reputation.
+
+**2. The Information Technology Act, 2000**
+
+  • **Section 43 & Section 66:** Unauthorized extraction, copying, downloading, scraping, or manipulation of source code and underlying database logic constitutes cyber-trespass, incurring civil damages and criminal liability.
+
+  • **Section 79 Intermediary Guidelines:** Formally reserves the rights to issue legal ceiling demands and mandatory Takedown Notices to host providers (GitHub Pages) harboring unauthorized forks or visual derivatives.
+
 
 ### Embedded Rights Statement
+
 A formal copyright notice is embedded inside the live architectural layout:
 > **© 2026 by ISHAAN HUMANEY. POWERED AND SECURED BY ISHAAN HUMANEY.**
 
 ### Licensing
-This repository is governed by a **Proprietary / All Rights Reserved License**. Code visibility on GitHub does not grant a public domain license to duplicate, redistribute, or use these layout files in third-party environments. For details, see the accompanying `LICENSE` file.
+
+This repository is governed by a Proprietary / All Rights Reserved License. Public visibility of the codebase on GitHub is provided strictly for peer review, academic evaluation, and personal demonstration purposes.
+
+**Public visibility does NOT constitute a waiver of rights, nor does it grant a public domain license to duplicate, fork, mirror, redistribute, or utilize these layout files, stylesheets, or scripts in third-party environments.**
+
+For full statutory details and restrictions, see the accompanying `LICENSE` file.
